@@ -173,9 +173,9 @@ case "$image" in
     DB=yes
     VISION=yes
     ;;
-  pytorch-linux-focal-py3-clang7-onnx)
+  pytorch-linux-focal-py3-clang10-onnx)
     ANACONDA_PYTHON_VERSION=3.7
-    CLANG_VERSION=7
+    CLANG_VERSION=10
     PROTOBUF=yes
     DB=yes
     VISION=yes
